@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = 'https://fantastic-meme-g6gq54q674p2v7x-4000.app.github.dev/api/snippets';
+const BASE_URL = 'localhost:4000/api/snippets';
 
 const snippetApi = {
   createSnippet: async (snippetData) => {

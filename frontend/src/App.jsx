@@ -51,7 +51,7 @@ function App() {
         value={code}
         onChange={setCode}
         options={{
-          minimap: { enabled: false },
+          minimap: { enabled: true },
           automaticLayout: true,
         }}
         editorDidMount={(editor) => {
